@@ -4,8 +4,6 @@ import (
 	"MuhamadSodikin/backend-api/config"
 	"MuhamadSodikin/backend-api/database"
 	"MuhamadSodikin/backend-api/routes"
-
-	"github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -29,5 +27,5 @@ func main() {
 	// })
 
 	//mulai server
-	router.Run(":" + config.GetEnv("APP_PORT", "3000"))
+	r.Run(":" + config.GetEnv("APP_PORT", "3001"))
 }

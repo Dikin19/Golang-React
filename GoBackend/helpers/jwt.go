@@ -1,7 +1,7 @@
 package helpers
 
 import (
-	"santrikoding/backend-api/config"
+	"MuhamadSodikin/backend-api/config"
 	"time"                            
 
 	"github.com/golang-jwt/jwt/v5"

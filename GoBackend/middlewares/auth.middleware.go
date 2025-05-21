@@ -2,7 +2,7 @@ package middlewares
 
 import (
 	"net/http"                        // Untuk membuat response HTTP
-	"santrikoding/backend-api/config" // Mengambil konfigurasi dari file .env
+	"MuhamadSodikin/backend-api/config" // Mengambil konfigurasi dari file .env
 	"strings"                         // Untuk manipulasi string
 
 	"github.com/gin-gonic/gin"     // Framework Gin untuk HTTP routing
